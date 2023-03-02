@@ -20,14 +20,14 @@ function App() {
         <Router>
           <MenuBar/>
           <Routes>
-            <Route path='/' element={<Menu/>}/>
+            <Route path='menu' element={<Menu/>}/>
             <Route path='accounting' element={<Accounting/>}/>
             <Route path='delivery' element={<Delivery/>}/>
             <Route path='reservation' element={<Reservation/>}/>
-            <Route path='tableServices' element={<TableServices/>}/>
+            <Route path='tableservices' element={<TableServices/>}/>
          
           </Routes>
-          <Cart/>
+        <Cart/>
         </Router>
       </Spotlight>
     </>
@@ -35,5 +35,6 @@ function App() {
 }
 const Spotlight = styled.section`
   display: flex;
+
 `;
 export default App

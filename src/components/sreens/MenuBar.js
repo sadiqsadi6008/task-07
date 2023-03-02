@@ -26,8 +26,8 @@ function MenuBar() {
                 </Link>
               </MenuList>
               <MenuList>
-                <Link to="/TimeServices">
-                  <ListAnchor> Time Services</ListAnchor>
+                <Link to="/TableServices">
+                  <ListAnchor> Table Services</ListAnchor>
                 </Link>
               </MenuList>
               <MenuList>
