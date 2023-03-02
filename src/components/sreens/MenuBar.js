@@ -9,7 +9,7 @@ function MenuBar() {
       <Wrapper className="wrapper">
         <FlexContainer>
           <TopSection>
-            {/* <Link to="/"> */}
+            <Link to="/">
               <Logo>
                 <LogoAnchor>
                   <LogoImage
@@ -18,32 +18,32 @@ function MenuBar() {
                   />
                 </LogoAnchor>
               </Logo>
-            {/* </Link> */}
+            </Link>
             <MenuListContainer>
               <MenuList>
-                {/* <Link to="/Reservation"> */}
+                <Link to="/Reservation">
                   <ListAnchor> Reservation</ListAnchor>
-                {/* </Link> */}
+                </Link>
               </MenuList>
               <MenuList>
-                {/* <Link to="/TableServices"> */}
-                  <ListAnchor> Table Services</ListAnchor>
-                {/* </Link> */}
+                <Link to="/TimeServices">
+                  <ListAnchor> Time Services</ListAnchor>
+                </Link>
               </MenuList>
               <MenuList>
-                {/* <Link to="/Menu"> */}
+                <Link to="/Menu">
                   <ListAnchor> Menu</ListAnchor>
-                {/* </Link> */}
+                </Link>
               </MenuList>
               <MenuList>
-                {/* <Link to="/Delivery"> */}
+                <Link to="/Delivery">
                   <ListAnchor> Delivery</ListAnchor>
-                {/* </Link> */}
+                </Link>
               </MenuList>
               <MenuList>
-                {/* <Link to="/Accounting"> */}
+                <Link to="/Accounting">
                   <ListAnchor> Accounting</ListAnchor>
-                {/* </Link> */}
+                </Link>
               </MenuList>
             </MenuListContainer>
           </TopSection>
@@ -69,7 +69,7 @@ function MenuBar() {
                     background: "var(--card-7)",
                   }}
                 >
-                  J
+                
                 </Letter>
                 <Name>Jacob j.</Name>
               </User>

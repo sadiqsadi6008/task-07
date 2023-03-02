@@ -1,17 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
 
-function Menu() {
+export default function Cart() {
   return (
     <Container>
-      hello
+
     </Container>
   )
 }
 
-export default Menu
-
 const Container =styled.div`
- width:51%;
+   width:32%
 
 `
