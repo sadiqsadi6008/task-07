@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>CosyPOS</title>
+        <title>Document</title>
       </Helmet>
       <Spotlight>
         <Router>
