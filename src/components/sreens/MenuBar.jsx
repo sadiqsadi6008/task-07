@@ -89,6 +89,7 @@ export default MenuBar;
 
 const MenuContainer = styled.aside`
   width: 18%;
+  background: #000;
 `;
 const Wrapper = styled.div``;
 const FlexContainer = styled.div`
