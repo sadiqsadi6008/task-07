@@ -3,11 +3,27 @@ import styled from "styled-components";
 
 function Cart({ cartItems,total }) {
 let tax = total*10/100;
-console.log(total);
  
-  let renderCartItems = () => {
-   
-  };
+let renderCartItems = () => {
+  if (cartItems.length <= 0) {
+    return <ItemTitle>Empty Cart</ItemTitle>;
+  } else {
+    return cartItems.map((item) => {
+      return (
+        <Item key={item.id}>
+          <FlexContainer>
+            <Number>{item.number}</Number>
+            <ItemTitle>
+              {item.title}
+              <Multi>{" "} x{item.qty}</Multi>
+            </ItemTitle>
+            <Price>${item.price}</Price>
+          </FlexContainer>
+        </Item>
+      );
+    });
+  }
+};
 
   // Rending the SubTotal function
 
